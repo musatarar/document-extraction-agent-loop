@@ -8,7 +8,7 @@ def evaluate_and_tool_call_loop(file_path):
     prompt = f"""
     You must extract data from an insurance loss run file titled '{file_path}'. 
     
-    Required fields: total_claim_count, total_open_count, total_paid_amount_cents, total_reserve_cents, total_incurred_cents
+    Required fields: total_claim_count, total_open_count, total_paid_amount, total_reserve, total_incurred (dollar amounts as floats)
 
     Use your tools in whatever order is most appropriate for the document. You are free to explore the document, inspect suspicious sections, and decide which steps are necessary to reach a complete result.
 

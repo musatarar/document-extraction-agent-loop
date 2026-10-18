@@ -175,25 +175,25 @@ return_validated_results_declaration = {
                 "type": "integer",
                 "description": "Number of claims with an open status.",
             },
-            "total_paid_amount_cents": {
-                "type": "integer",
-                "description": "Sum of paid amounts across all claims, in cents.",
+            "total_paid_amount": {
+                "type": "number",
+                "description": "Sum of paid amounts across all claims, in dollars.",
             },
-            "total_reserve_cents": {
-                "type": "integer",
-                "description": "Sum of reserve amounts across all claims, in cents.",
+            "total_reserve": {
+                "type": "number",
+                "description": "Sum of reserve amounts across all claims, in dollars.",
             },
-            "total_incurred_cents": {
-                "type": "integer",
-                "description": "Sum of incurred amounts across all claims, in cents.",
+            "total_incurred": {
+                "type": "number",
+                "description": "Sum of incurred amounts across all claims, in dollars.",
             },
         },
         "required": [
             "total_claim_count",
             "total_open_count",
-            "total_paid_amount_cents",
-            "total_reserve_cents",
-            "total_incurred_cents",
+            "total_paid_amount",
+            "total_reserve",
+            "total_incurred",
         ],
     },
 }
