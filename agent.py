@@ -1,5 +1,6 @@
+import json
 from google import genai
-from models import FUNCTION_DECLARATIONS
+from models import CLAIM_RECORD_SCHEMA
 from dotenv import load_dotenv
 import os
 from pydantic import BaseModel, Field
@@ -16,12 +17,12 @@ def interact(
     input: str, 
     response_format: BaseModel = None,
     thinking_level: str = "low", 
-    tools: list[dict] = FUNCTION_DECLARATIONS
+    tools: list[dict] | None = None
 ) -> str:
     interaction = client.interactions.create(
         model="gemini-3.8-flash",
         input=input,
-        tools=tools,
+        **({"tools": tools} if tools else {}),
         response_format=response_format,
         generation_config={
             "thinking_level": thinking_level,
@@ -69,29 +70,24 @@ def inspect_pages(file_path: str, pages: list[int], prompt) -> str:
     ])
     return interaction.output_text
 
-class DocumentClaims(BaseModel):
-    claim_number: str = Field(description="The number of the claim")
-    date_of_loss: str = Field(description="The date of the loss")
-    status: str = Field(description="The status of the claim")
-    dollar_amount: float = Field(description="The dollar amount of the claim as a float")
+CLAIMS_RESPONSE_SCHEMA = {
+    "type": "object",
+    "properties": {"claims": {"type": "array", "items": CLAIM_RECORD_SCHEMA}},
+    "required": ["claims"],
+}
 
-    claimant: str = Field(description="The name of the claimant")
-    date_reported: str = Field(description="The date the claim was reported")
-    date_closed: str | None = Field(default=None, description="The date the claim was closed, if closed")
-    cause: str = Field(description="The cause of the loss")
-    description: str = Field(description="A description of the claim")
+EXTRACT_CLAIMS_PROMPT = "Return every claim in the document, one record per claim. Copy dollar amounts exactly as shown, as floats. If a field is not shown, use an empty string for text and 0 for amounts."
 
-def get_document_claims(file_path: str, prompt: str = "Return the claims in the document. Claim number, date of loss, status, and dollar amount must be included. Leave other fields null if missing or if you are unsure.") -> DocumentClaims:
+def get_document_claims(file_path: str, pages: list[int] | None = None, instructions: str | None = None) -> list[dict]:
+    prompt = EXTRACT_CLAIMS_PROMPT
+    if instructions:
+        prompt += f"\n\nDocument-specific guidance:\n{instructions}"
     interaction = interact([
         {
             "type": "document",
-            "data": pdf_to_base64(file_path),
+            "data": pdf_to_base64(file_path, pages),
             "mime_type": "application/pdf"
         },
         {"type": "text", "text": prompt}
-    ], response_format=DocumentClaims.model_json_schema())
-    return DocumentClaims.model_validate_json(interaction.output_text)
-
-
-    
-
+    ], response_format=CLAIMS_RESPONSE_SCHEMA)
+    return json.loads(interaction.output_text)["claims"]
