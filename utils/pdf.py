@@ -19,3 +19,7 @@ def pdf_to_base64(file_path, pages: list[int] | None = None) -> str:
     buf = io.BytesIO()
     writer.write(buf)
     return base64.b64encode(buf.getvalue()).decode("ascii")
+
+def get_total_pages(file_path) -> int:
+    """Return the number of pages in the PDF at `file_path`."""
+    return len(PdfReader(file_path).pages)
