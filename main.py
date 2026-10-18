@@ -30,22 +30,30 @@ def evaluate_and_tool_call_loop(file_path):
         }
     ]
 
+    print(f"[start] extracting {file_path}")
     interaction = interact(prompt, tools=FUNCTION_DECLARATIONS)
 
+    turn = 0
     while True:
+        turn += 1
         for step in interaction.steps:
             history.append(step.model_dump())
 
         fc_step = next(s for s in interaction.steps if s.type == "function_call")
+        print(f"[turn {turn}] calling {fc_step.name}({json.dumps(fc_step.arguments)})")
         result = FUNCTIONS[fc_step.name](file_path, **fc_step.arguments)
         if fc_step.name == "return_validated_results":
+            print(f"[done] {json.dumps(result)}")
             return result
+
+        result_str = json.dumps(result)
+        print(f"[turn {turn}] {fc_step.name} -> {result_str[:300]}{'...' if len(result_str) > 300 else ''}")
 
         history.append({
             "type": "function_result",
             "name": fc_step.name,
             "call_id": fc_step.id,
-            "result": [{"type": "text", "text": json.dumps(result)}],
+            "result": [{"type": "text", "text": result_str}],
         })
 
         interaction = interact(history, tools=FUNCTION_DECLARATIONS)
