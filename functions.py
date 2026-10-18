@@ -25,17 +25,33 @@ extract_claims_declaration = {
                 "type": "integer",
                 "description": "Last page (1-indexed, inclusive) to extract from.",
             },
+            "instructions": {
+                "type": "string",
+                "description": (
+                    "Guidance for the extraction sub-agent: how claims are laid out "
+                    "in this document (table structure, column names, multi-line "
+                    "rows, sections by coverage or policy period) and any caveats "
+                    "needed to extract them correctly (e.g. subtotal rows that are "
+                    "not claims, claims continuing across pages, which column holds "
+                    "reserves vs. outstanding, recoveries shown as negatives)."
+                ),
+            },
         },
     },
 }
 
-def extract_claims(file_path: str, page_start: int | None = None, page_end: int | None = None) -> list[dict]:
+def extract_claims(
+    file_path: str,
+    page_start: int | None = None,
+    page_end: int | None = None,
+    instructions: str | None = None,
+) -> list[dict]:
     pages = None
     if page_start is not None or page_end is not None:
         start = page_start or 1
         end = page_end or start
         pages = list(range(start - 1, end))
-    return get_document_claims(file_path, pages=pages)
+    return get_document_claims(file_path, pages=pages, instructions=instructions)
 
 
 focus_pages_declaration = {

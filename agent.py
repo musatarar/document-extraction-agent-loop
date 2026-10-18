@@ -76,7 +76,12 @@ CLAIMS_RESPONSE_SCHEMA = {
     "required": ["claims"],
 }
 
-def get_document_claims(file_path: str, pages: list[int] | None = None, prompt: str = "Return every claim in the document, one record per claim. Copy dollar amounts exactly as shown, as floats. If a field is not shown, use an empty string for text and 0 for amounts.") -> list[dict]:
+EXTRACT_CLAIMS_PROMPT = "Return every claim in the document, one record per claim. Copy dollar amounts exactly as shown, as floats. If a field is not shown, use an empty string for text and 0 for amounts."
+
+def get_document_claims(file_path: str, pages: list[int] | None = None, instructions: str | None = None) -> list[dict]:
+    prompt = EXTRACT_CLAIMS_PROMPT
+    if instructions:
+        prompt += f"\n\nDocument-specific guidance:\n{instructions}"
     interaction = interact([
         {
             "type": "document",
