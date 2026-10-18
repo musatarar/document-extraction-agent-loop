@@ -1,0 +1,1219 @@
+{
+  "doc_id": "L01_003",
+  "layout": "L01_classic_grid",
+  "carrier": "Tallpine Mutual Insurance Company",
+  "issuer": "Tallpine Mutual Insurance Company",
+  "insured_name": "Union Square Market Inc.",
+  "insured_address": "280 Enterprise Blvd, Paterson, NJ 11872",
+  "account_number": "524107",
+  "agency": "Bluestone Insurance Services",
+  "valuation_date": "2026-07-23",
+  "run_date": "2026-08-01",
+  "currency": "USD",
+  "whole_dollar_amounts": false,
+  "policies": [
+    {
+      "policy_number": "WC 6651112-01",
+      "line_of_business": "WC",
+      "effective_date": "2023-01-01",
+      "expiration_date": "2024-01-01",
+      "premium": 62161.0,
+      "claims": [
+        {
+          "claim_number": "WC23010586",
+          "coverage": "WC",
+          "date_of_loss": "2023-01-07",
+          "date_reported": "2023-01-16",
+          "date_closed": "2026-05-07",
+          "status": "Closed",
+          "claimant": "OKAFOR, BRIAN",
+          "cause": "Burn",
+          "description": "Employee burned lower back on a hot press.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 1807.81,
+              "reserve": 0.0,
+              "incurred": 1807.81
+            },
+            "expense": {
+              "paid": 810.99,
+              "reserve": 0.0,
+              "incurred": 810.99
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 2618.8,
+          "total_reserve": 0.0,
+          "total_incurred": 2618.8,
+          "paid_loss": 1807.81,
+          "paid_expense": 810.99,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 2618.8
+        },
+        {
+          "claim_number": "WC23010553",
+          "coverage": "WC",
+          "date_of_loss": "2023-03-16",
+          "date_reported": "2023-03-27",
+          "date_closed": "2023-08-12",
+          "status": "Closed",
+          "claimant": "SMITH, JENNIFER",
+          "cause": "Struck By Object",
+          "description": "Employee struck by a loading dock door.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 12215.14,
+              "reserve": 0.0,
+              "incurred": 12215.14
+            },
+            "expense": {
+              "paid": 6646.3,
+              "reserve": 0.0,
+              "incurred": 6646.3
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 18861.44,
+          "total_reserve": 0.0,
+          "total_incurred": 18861.44,
+          "paid_loss": 12215.14,
+          "paid_expense": 6646.3,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 18861.44
+        },
+        {
+          "claim_number": "WC23010604",
+          "coverage": "WC",
+          "date_of_loss": "2023-04-30",
+          "date_reported": "2023-05-06",
+          "date_closed": "2026-01-11",
+          "status": "Closed",
+          "claimant": "DAVIS, MEI",
+          "cause": "Burn",
+          "description": "Employee burned left knee on a grill.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 20097.5,
+              "reserve": 0.0,
+              "incurred": 20097.5
+            },
+            "expense": {
+              "paid": 5608.23,
+              "reserve": 0.0,
+              "incurred": 5608.23
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 25705.73,
+          "total_reserve": 0.0,
+          "total_incurred": 25705.73,
+          "paid_loss": 20097.5,
+          "paid_expense": 5608.23,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 25705.73
+        },
+        {
+          "claim_number": "WC23010598",
+          "coverage": "WC",
+          "date_of_loss": "2023-07-25",
+          "date_reported": "2023-07-27",
+          "date_closed": "2026-06-04",
+          "status": "Closed",
+          "claimant": "PATEL, ELENA",
+          "cause": "Strain/Lifting",
+          "description": "Employee strained left ankle lifting a fence.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 1306.14,
+              "reserve": 0.0,
+              "incurred": 1306.14
+            },
+            "expense": {
+              "paid": 368.9,
+              "reserve": 0.0,
+              "incurred": 368.9
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 1675.04,
+          "total_reserve": 0.0,
+          "total_incurred": 1675.04,
+          "paid_loss": 1306.14,
+          "paid_expense": 368.9,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 1675.04
+        },
+        {
+          "claim_number": "WC23010582",
+          "coverage": "WC",
+          "date_of_loss": "2023-08-10",
+          "date_reported": "2023-09-04",
+          "date_closed": "2025-01-09",
+          "status": "Closed",
+          "claimant": "WALKER, JAMES",
+          "cause": "Burn",
+          "description": "Employee burned right hand on a steam line.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 1239.36,
+              "reserve": 0.0,
+              "incurred": 1239.36
+            },
+            "expense": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 1239.36,
+          "total_reserve": 0.0,
+          "total_incurred": 1239.36,
+          "paid_loss": 1239.36,
+          "paid_expense": 0.0,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 1239.36
+        }
+      ],
+      "totals": {
+        "total_paid": 50100.37,
+        "total_reserve": 0.0,
+        "total_incurred": 50100.37,
+        "paid_loss": 36665.95,
+        "paid_expense": 13434.42,
+        "reserve_loss": 0.0,
+        "reserve_expense": 0.0,
+        "recovery": 0.0,
+        "net_incurred": 50100.37,
+        "claim_count": 5,
+        "open_count": 0,
+        "closed_count": 5,
+        "loss_ratio": 0.806
+      }
+    },
+    {
+      "policy_number": "WC 6651112-02",
+      "line_of_business": "WC",
+      "effective_date": "2024-01-01",
+      "expiration_date": "2025-01-01",
+      "premium": 59120.0,
+      "claims": [
+        {
+          "claim_number": "WC24010669",
+          "coverage": "WC",
+          "date_of_loss": "2024-01-09",
+          "date_reported": "2024-01-21",
+          "date_closed": "2025-07-02",
+          "status": "Closed",
+          "claimant": "KIM, ANDRE",
+          "cause": "Slip/Fall",
+          "description": "Employee slipped on a wet floor and fell, injuring right hand.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 442.79,
+              "reserve": 0.0,
+              "incurred": 442.79
+            },
+            "expense": {
+              "paid": 117.04,
+              "reserve": 0.0,
+              "incurred": 117.04
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 559.83,
+          "total_reserve": 0.0,
+          "total_incurred": 559.83,
+          "paid_loss": 442.79,
+          "paid_expense": 117.04,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 559.83
+        },
+        {
+          "claim_number": "WC24010717",
+          "coverage": "WC",
+          "date_of_loss": "2024-01-26",
+          "date_reported": "2024-02-02",
+          "date_closed": "2024-03-16",
+          "status": "Closed",
+          "claimant": "WILLIAMS, BRIAN",
+          "cause": "Slip/Fall",
+          "description": "Employee slipped on an icy walkway and fell, injuring wrist.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 1987.92,
+              "reserve": 0.0,
+              "incurred": 1987.92
+            },
+            "medical": {
+              "paid": 1947.23,
+              "reserve": 0.0,
+              "incurred": 1947.23
+            },
+            "expense": {
+              "paid": 743.63,
+              "reserve": 0.0,
+              "incurred": 743.63
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 4678.78,
+          "total_reserve": 0.0,
+          "total_incurred": 4678.78,
+          "paid_loss": 3935.15,
+          "paid_expense": 743.63,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 4678.78
+        },
+        {
+          "claim_number": "WC24010639",
+          "coverage": "WC",
+          "date_of_loss": "2024-08-27",
+          "date_reported": "2024-09-12",
+          "date_closed": "2025-02-20",
+          "status": "Closed",
+          "claimant": "CHEN, BRIAN",
+          "cause": "Repetitive Motion",
+          "description": "Employee reports pain in right hand from repetitive scanning.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 546.93,
+              "reserve": 0.0,
+              "incurred": 546.93
+            },
+            "medical": {
+              "paid": 489.71,
+              "reserve": 0.0,
+              "incurred": 489.71
+            },
+            "expense": {
+              "paid": 133.08,
+              "reserve": 0.0,
+              "incurred": 133.08
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 1169.72,
+          "total_reserve": 0.0,
+          "total_incurred": 1169.72,
+          "paid_loss": 1036.64,
+          "paid_expense": 133.08,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 1169.72
+        },
+        {
+          "claim_number": "WC24010741",
+          "coverage": "WC",
+          "date_of_loss": "2024-10-15",
+          "date_reported": "2024-11-04",
+          "date_closed": "2025-09-09",
+          "status": "Closed",
+          "claimant": "MURPHY, MICHAEL",
+          "cause": "Burn",
+          "description": "Employee burned right hand on a steam line.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 1149.21,
+              "reserve": 0.0,
+              "incurred": 1149.21
+            },
+            "expense": {
+              "paid": 287.27,
+              "reserve": 0.0,
+              "incurred": 287.27
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 1436.48,
+          "total_reserve": 0.0,
+          "total_incurred": 1436.48,
+          "paid_loss": 1149.21,
+          "paid_expense": 287.27,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 1436.48
+        },
+        {
+          "claim_number": "WC24010690",
+          "coverage": "WC",
+          "date_of_loss": "2024-10-28",
+          "date_reported": "2024-10-31",
+          "date_closed": "2025-08-10",
+          "status": "Closed",
+          "claimant": "SILVA, CARLOS",
+          "cause": "Burn",
+          "description": "Employee burned left ankle on a grill.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 2317.49,
+              "reserve": 0.0,
+              "incurred": 2317.49
+            },
+            "expense": {
+              "paid": 1230.15,
+              "reserve": 0.0,
+              "incurred": 1230.15
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 3547.64,
+          "total_reserve": 0.0,
+          "total_incurred": 3547.64,
+          "paid_loss": 2317.49,
+          "paid_expense": 1230.15,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 3547.64
+        },
+        {
+          "claim_number": "WC24010642",
+          "coverage": "WC",
+          "date_of_loss": "2024-11-09",
+          "date_reported": "2024-11-13",
+          "date_closed": "2026-07-01",
+          "status": "Closed",
+          "claimant": "NGUYEN, JASON",
+          "cause": "Strain/Lifting",
+          "description": "Employee strained left knee lifting a parked vehicle.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 10394.26,
+              "reserve": 0.0,
+              "incurred": 10394.26
+            },
+            "medical": {
+              "paid": 5719.0,
+              "reserve": 0.0,
+              "incurred": 5719.0
+            },
+            "expense": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 16113.26,
+          "total_reserve": 0.0,
+          "total_incurred": 16113.26,
+          "paid_loss": 16113.26,
+          "paid_expense": 0.0,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 16113.26
+        }
+      ],
+      "totals": {
+        "total_paid": 27505.71,
+        "total_reserve": 0.0,
+        "total_incurred": 27505.71,
+        "paid_loss": 24994.54,
+        "paid_expense": 2511.17,
+        "reserve_loss": 0.0,
+        "reserve_expense": 0.0,
+        "recovery": 0.0,
+        "net_incurred": 27505.71,
+        "claim_count": 6,
+        "open_count": 0,
+        "closed_count": 6,
+        "loss_ratio": 0.4653
+      }
+    },
+    {
+      "policy_number": "WC 6651112-03",
+      "line_of_business": "WC",
+      "effective_date": "2025-01-01",
+      "expiration_date": "2026-01-01",
+      "premium": 61795.0,
+      "claims": [
+        {
+          "claim_number": "WC25010949",
+          "coverage": "WC",
+          "date_of_loss": "2025-01-23",
+          "date_reported": "2025-02-08",
+          "date_closed": "2025-11-10",
+          "status": "Closed",
+          "claimant": "COHEN, GRACE",
+          "cause": "Strain/Lifting",
+          "description": "Employee strained right shoulder lifting a light pole.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 1332.96,
+              "reserve": 0.0,
+              "incurred": 1332.96
+            },
+            "expense": {
+              "paid": 307.02,
+              "reserve": 0.0,
+              "incurred": 307.02
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 1639.98,
+          "total_reserve": 0.0,
+          "total_incurred": 1639.98,
+          "paid_loss": 1332.96,
+          "paid_expense": 307.02,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 1639.98
+        },
+        {
+          "claim_number": "WC25010891",
+          "coverage": "WC",
+          "date_of_loss": "2025-03-13",
+          "date_reported": "2025-03-14",
+          "date_closed": "2025-10-28",
+          "status": "Closed",
+          "claimant": "BENNETT, VICTOR",
+          "cause": "Strain/Lifting",
+          "description": "Employee strained right shoulder lifting a pallet of boxes.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 0.0,
+          "total_reserve": 0.0,
+          "total_incurred": 0.0,
+          "paid_loss": 0.0,
+          "paid_expense": 0.0,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 0.0
+        },
+        {
+          "claim_number": "WC25010775",
+          "coverage": "WC",
+          "date_of_loss": "2025-04-07",
+          "date_reported": "2025-05-25",
+          "date_closed": "2025-09-07",
+          "status": "Closed",
+          "claimant": "DAVIS, ROBERT",
+          "cause": "Strain/Lifting",
+          "description": "Employee strained left ankle lifting a pallet of boxes.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 169.42,
+              "reserve": 0.0,
+              "incurred": 169.42
+            },
+            "medical": {
+              "paid": 93.25,
+              "reserve": 0.0,
+              "incurred": 93.25
+            },
+            "expense": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 262.67,
+          "total_reserve": 0.0,
+          "total_incurred": 262.67,
+          "paid_loss": 262.67,
+          "paid_expense": 0.0,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 262.67
+        },
+        {
+          "claim_number": "WC25010748",
+          "coverage": "WC",
+          "date_of_loss": "2025-04-13",
+          "date_reported": "2025-05-08",
+          "date_closed": "2025-12-30",
+          "status": "Closed",
+          "claimant": "HUGHES, TYRONE",
+          "cause": "Burn",
+          "description": "Employee burned left knee on a grill.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 1356.4,
+              "reserve": 0.0,
+              "incurred": 1356.4
+            },
+            "expense": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 1356.4,
+          "total_reserve": 0.0,
+          "total_incurred": 1356.4,
+          "paid_loss": 1356.4,
+          "paid_expense": 0.0,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 1356.4
+        },
+        {
+          "claim_number": "WC25010874",
+          "coverage": "WC",
+          "date_of_loss": "2025-06-14",
+          "date_reported": "2025-06-17",
+          "date_closed": "2025-12-18",
+          "status": "Closed",
+          "claimant": "WALKER, ANDRE",
+          "cause": "Struck By Object",
+          "description": "Employee struck by a loading dock door.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 7380.15,
+              "reserve": 0.0,
+              "incurred": 7380.15
+            },
+            "expense": {
+              "paid": 3651.35,
+              "reserve": 0.0,
+              "incurred": 3651.35
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 11031.5,
+          "total_reserve": 0.0,
+          "total_incurred": 11031.5,
+          "paid_loss": 7380.15,
+          "paid_expense": 3651.35,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 11031.5
+        },
+        {
+          "claim_number": "WC25010804",
+          "coverage": "WC",
+          "date_of_loss": "2025-07-19",
+          "date_reported": "2025-07-22",
+          "date_closed": "2025-10-16",
+          "status": "Closed",
+          "claimant": "COHEN, ANDRE",
+          "cause": "Repetitive Motion",
+          "description": "Employee reports pain in wrist from repetitive assembly work.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 3716.09,
+              "reserve": 0.0,
+              "incurred": 3716.09
+            },
+            "medical": {
+              "paid": 4610.66,
+              "reserve": 0.0,
+              "incurred": 4610.66
+            },
+            "expense": {
+              "paid": 317.63,
+              "reserve": 0.0,
+              "incurred": 317.63
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 8644.38,
+          "total_reserve": 0.0,
+          "total_incurred": 8644.38,
+          "paid_loss": 8326.75,
+          "paid_expense": 317.63,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 8644.38
+        },
+        {
+          "claim_number": "WC25010834",
+          "coverage": "WC",
+          "date_of_loss": "2025-09-17",
+          "date_reported": "2025-09-27",
+          "date_closed": "2025-09-27",
+          "status": "Closed",
+          "claimant": "MARTIN, JENNIFER",
+          "cause": "Repetitive Motion",
+          "description": "Employee reports pain in lower back from repetitive scanning.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 1141.56,
+              "reserve": 0.0,
+              "incurred": 1141.56
+            },
+            "expense": {
+              "paid": 264.74,
+              "reserve": 0.0,
+              "incurred": 264.74
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 1406.3,
+          "total_reserve": 0.0,
+          "total_incurred": 1406.3,
+          "paid_loss": 1141.56,
+          "paid_expense": 264.74,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 1406.3
+        },
+        {
+          "claim_number": "WC25010920",
+          "coverage": "WC",
+          "date_of_loss": "2025-10-12",
+          "date_reported": "2025-11-07",
+          "date_closed": "2026-05-18",
+          "status": "Closed",
+          "claimant": "BAKER, PRIYA",
+          "cause": "Burn",
+          "description": "Employee burned right hand on a hot press.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 721.6,
+              "reserve": 0.0,
+              "incurred": 721.6
+            },
+            "expense": {
+              "paid": 309.71,
+              "reserve": 0.0,
+              "incurred": 309.71
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 1031.31,
+          "total_reserve": 0.0,
+          "total_incurred": 1031.31,
+          "paid_loss": 721.6,
+          "paid_expense": 309.71,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 1031.31
+        },
+        {
+          "claim_number": "WC25010904",
+          "coverage": "WC",
+          "date_of_loss": "2025-11-17",
+          "date_reported": "2025-12-01",
+          "date_closed": "2026-07-21",
+          "status": "Closed",
+          "claimant": "CHEN, BRIAN",
+          "cause": "Laceration",
+          "description": "Employee cut left knee on a band saw.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 4347.47,
+              "reserve": 0.0,
+              "incurred": 4347.47
+            },
+            "expense": {
+              "paid": 2337.55,
+              "reserve": 0.0,
+              "incurred": 2337.55
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 6685.02,
+          "total_reserve": 0.0,
+          "total_incurred": 6685.02,
+          "paid_loss": 4347.47,
+          "paid_expense": 2337.55,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 6685.02
+        },
+        {
+          "claim_number": "WC25010848",
+          "coverage": "WC",
+          "date_of_loss": "2025-12-24",
+          "date_reported": "2025-12-24",
+          "date_closed": null,
+          "status": "Open",
+          "claimant": "JOHNSON, VICTOR",
+          "cause": "Repetitive Motion",
+          "description": "Employee reports pain in left knee from repetitive lifting.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 5168.54,
+              "reserve": 7723.35,
+              "incurred": 12891.89
+            },
+            "expense": {
+              "paid": 33.65,
+              "reserve": 1296.07,
+              "incurred": 1329.72
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 5202.19,
+          "total_reserve": 9019.42,
+          "total_incurred": 14221.61,
+          "paid_loss": 5168.54,
+          "paid_expense": 33.65,
+          "reserve_loss": 7723.35,
+          "reserve_expense": 1296.07,
+          "net_incurred": 14221.61
+        }
+      ],
+      "totals": {
+        "total_paid": 37259.75,
+        "total_reserve": 9019.42,
+        "total_incurred": 46279.17,
+        "paid_loss": 30038.1,
+        "paid_expense": 7221.65,
+        "reserve_loss": 7723.35,
+        "reserve_expense": 1296.07,
+        "recovery": 0.0,
+        "net_incurred": 46279.17,
+        "claim_count": 10,
+        "open_count": 1,
+        "closed_count": 9,
+        "loss_ratio": 0.7489
+      }
+    },
+    {
+      "policy_number": "WC 6651112-04",
+      "line_of_business": "WC",
+      "effective_date": "2026-01-01",
+      "expiration_date": "2027-01-01",
+      "premium": 64235.0,
+      "claims": [
+        {
+          "claim_number": "WC26011050",
+          "coverage": "WC",
+          "date_of_loss": "2026-01-14",
+          "date_reported": "2026-02-15",
+          "date_closed": "2026-03-20",
+          "status": "Closed",
+          "claimant": "WILLIAMS, ROBERT",
+          "cause": "Struck By Object",
+          "description": "Employee struck by a dumpster.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 0.0,
+          "total_reserve": 0.0,
+          "total_incurred": 0.0,
+          "paid_loss": 0.0,
+          "paid_expense": 0.0,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 0.0
+        },
+        {
+          "claim_number": "WC26011028",
+          "coverage": "WC",
+          "date_of_loss": "2026-02-05",
+          "date_reported": "2026-03-07",
+          "date_closed": null,
+          "status": "Reopened",
+          "claimant": "SMITH, JAMES",
+          "cause": "Laceration",
+          "description": "Employee cut right shoulder on a kitchen knife.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 162.93,
+              "reserve": 70.89,
+              "incurred": 233.82
+            },
+            "expense": {
+              "paid": 59.81,
+              "reserve": 56.33,
+              "incurred": 116.14
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 222.74,
+          "total_reserve": 127.22,
+          "total_incurred": 349.96,
+          "paid_loss": 162.93,
+          "paid_expense": 59.81,
+          "reserve_loss": 70.89,
+          "reserve_expense": 56.33,
+          "net_incurred": 349.96
+        },
+        {
+          "claim_number": "WC26011011",
+          "coverage": "WC",
+          "date_of_loss": "2026-02-14",
+          "date_reported": "2026-03-13",
+          "date_closed": "2026-07-12",
+          "status": "Closed",
+          "claimant": "BENNETT, DANIEL",
+          "cause": "Burn",
+          "description": "Employee burned right hand on a hot press.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 8221.77,
+              "reserve": 0.0,
+              "incurred": 8221.77
+            },
+            "expense": {
+              "paid": 4645.13,
+              "reserve": 0.0,
+              "incurred": 4645.13
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 12866.9,
+          "total_reserve": 0.0,
+          "total_incurred": 12866.9,
+          "paid_loss": 8221.77,
+          "paid_expense": 4645.13,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 12866.9
+        },
+        {
+          "claim_number": "WC26011105",
+          "coverage": "WC",
+          "date_of_loss": "2026-03-27",
+          "date_reported": "2026-04-08",
+          "date_closed": null,
+          "status": "Open",
+          "claimant": "DAVIS, GRACE",
+          "cause": "Slip/Fall",
+          "description": "Employee slipped on a wet floor and fell, injuring left ankle.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 3749.29,
+              "reserve": 4276.17,
+              "incurred": 8025.46
+            },
+            "medical": {
+              "paid": 4402.92,
+              "reserve": 4981.39,
+              "incurred": 9384.31
+            },
+            "expense": {
+              "paid": 1659.83,
+              "reserve": 1823.15,
+              "incurred": 3482.98
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 9812.04,
+          "total_reserve": 11080.71,
+          "total_incurred": 20892.75,
+          "paid_loss": 8152.21,
+          "paid_expense": 1659.83,
+          "reserve_loss": 9257.56,
+          "reserve_expense": 1823.15,
+          "net_incurred": 20892.75
+        },
+        {
+          "claim_number": "WC26011074",
+          "coverage": "WC",
+          "date_of_loss": "2026-05-12",
+          "date_reported": "2026-05-12",
+          "date_closed": null,
+          "status": "Open",
+          "claimant": "COHEN, TYRONE",
+          "cause": "Strain/Lifting",
+          "description": "Employee strained left knee lifting a light pole.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 543.49,
+              "reserve": 197.75,
+              "incurred": 741.24
+            },
+            "medical": {
+              "paid": 365.04,
+              "reserve": 228.94,
+              "incurred": 593.98
+            },
+            "expense": {
+              "paid": 113.63,
+              "reserve": 189.52,
+              "incurred": 303.15
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 1022.16,
+          "total_reserve": 616.21,
+          "total_incurred": 1638.37,
+          "paid_loss": 908.53,
+          "paid_expense": 113.63,
+          "reserve_loss": 426.69,
+          "reserve_expense": 189.52,
+          "net_incurred": 1638.37
+        },
+        {
+          "claim_number": "WC26011071",
+          "coverage": "WC",
+          "date_of_loss": "2026-05-30",
+          "date_reported": "2026-06-05",
+          "date_closed": null,
+          "status": "Open",
+          "claimant": "LOPEZ, TANYA",
+          "cause": "Burn",
+          "description": "Employee burned left knee on a grill.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 483.98,
+              "reserve": 300.45,
+              "incurred": 784.43
+            },
+            "expense": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 483.98,
+          "total_reserve": 300.45,
+          "total_incurred": 784.43,
+          "paid_loss": 483.98,
+          "paid_expense": 0.0,
+          "reserve_loss": 300.45,
+          "reserve_expense": 0.0,
+          "net_incurred": 784.43
+        },
+        {
+          "claim_number": "WC26010986",
+          "coverage": "WC",
+          "date_of_loss": "2026-06-04",
+          "date_reported": "2026-06-04",
+          "date_closed": null,
+          "status": "Open",
+          "claimant": "JOHNSON, ROBERT",
+          "cause": "Strain/Lifting",
+          "description": "Employee strained left ankle lifting a shelving unit.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 825.19,
+              "reserve": 1169.66,
+              "incurred": 1994.85
+            },
+            "medical": {
+              "paid": 94.4,
+              "reserve": 839.28,
+              "incurred": 933.68
+            },
+            "expense": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 919.59,
+          "total_reserve": 2008.94,
+          "total_incurred": 2928.53,
+          "paid_loss": 919.59,
+          "paid_expense": 0.0,
+          "reserve_loss": 2008.94,
+          "reserve_expense": 0.0,
+          "net_incurred": 2928.53
+        }
+      ],
+      "totals": {
+        "total_paid": 25327.41,
+        "total_reserve": 14133.53,
+        "total_incurred": 39460.94,
+        "paid_loss": 18849.01,
+        "paid_expense": 6478.4,
+        "reserve_loss": 12064.53,
+        "reserve_expense": 2069.0,
+        "recovery": 0.0,
+        "net_incurred": 39460.94,
+        "claim_count": 7,
+        "open_count": 5,
+        "closed_count": 2,
+        "loss_ratio": 0.6143
+      }
+    }
+  ],
+  "totals": {
+    "total_paid": 140193.24,
+    "total_reserve": 23152.95,
+    "total_incurred": 163346.19,
+    "paid_loss": 110547.6,
+    "paid_expense": 29645.64,
+    "reserve_loss": 19787.88,
+    "reserve_expense": 3365.07,
+    "recovery": 0.0,
+    "net_incurred": 163346.19,
+    "claim_count": 28,
+    "open_count": 6,
+    "closed_count": 22
+  },
+  "render_params": {
+    "date": "%m/%d/%Y",
+    "money": "plain",
+    "zero": "0.00"
+  },
+  "fields_present": [
+    "claim_number",
+    "date_of_loss",
+    "date_reported",
+    "claimant",
+    "cause",
+    "status",
+    "financials.*.paid",
+    "total_reserve",
+    "total_incurred",
+    "policy.*",
+    "totals"
+  ],
+  "quirks": [
+    "landscape",
+    "policy_subtotals",
+    "grand_total_last_page",
+    "per_component_paid_columns",
+    "column_set_changes_per_lob"
+  ],
+  "file": "documents/L01_003.pdf",
+  "format": "pdf",
+  "pages": 2,
+  "has_text_layer": true
+}

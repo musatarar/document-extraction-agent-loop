@@ -1,0 +1,663 @@
+{
+  "doc_id": "L01_002",
+  "layout": "L01_classic_grid",
+  "carrier": "Tallpine Mutual Insurance Company",
+  "issuer": "Tallpine Mutual Insurance Company",
+  "insured_name": "Eastgate Auto Body Inc.",
+  "insured_address": "5581 Elm Ave, Scranton, PA 16995",
+  "account_number": "308006",
+  "agency": "Clearpath Risk Partners",
+  "valuation_date": "2026-08-15",
+  "run_date": "2026-08-19",
+  "currency": "USD",
+  "whole_dollar_amounts": false,
+  "policies": [
+    {
+      "policy_number": "WC 5445820-01",
+      "line_of_business": "WC",
+      "effective_date": "2023-12-01",
+      "expiration_date": "2024-12-01",
+      "premium": 67205.0,
+      "claims": [
+        {
+          "claim_number": "WC24040100",
+          "coverage": "WC",
+          "date_of_loss": "2024-01-15",
+          "date_reported": "2024-01-22",
+          "date_closed": "2025-03-15",
+          "status": "Closed",
+          "claimant": "SMITH, SAMUEL",
+          "cause": "Slip/Fall",
+          "description": "Employee slipped on a wet floor and fell, injuring right hand.",
+          "location": "Syracuse, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 6229.75,
+              "reserve": 0.0,
+              "incurred": 6229.75
+            },
+            "expense": {
+              "paid": 1154.59,
+              "reserve": 0.0,
+              "incurred": 1154.59
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 7384.34,
+          "total_reserve": 0.0,
+          "total_incurred": 7384.34,
+          "paid_loss": 6229.75,
+          "paid_expense": 1154.59,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 7384.34
+        },
+        {
+          "claim_number": "WC24040139",
+          "coverage": "WC",
+          "date_of_loss": "2024-02-01",
+          "date_reported": "2024-03-02",
+          "date_closed": "2026-06-21",
+          "status": "Closed",
+          "claimant": "SATO, VICTOR",
+          "cause": "Laceration",
+          "description": "Employee cut right shoulder on a broken glass.",
+          "location": "Syracuse, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 6441.09,
+              "reserve": 0.0,
+              "incurred": 6441.09
+            },
+            "expense": {
+              "paid": 1764.01,
+              "reserve": 0.0,
+              "incurred": 1764.01
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 8205.1,
+          "total_reserve": 0.0,
+          "total_incurred": 8205.1,
+          "paid_loss": 6441.09,
+          "paid_expense": 1764.01,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 8205.1
+        },
+        {
+          "claim_number": "WC24040064",
+          "coverage": "WC",
+          "date_of_loss": "2024-08-01",
+          "date_reported": "2024-08-22",
+          "date_closed": "2025-09-17",
+          "status": "Closed",
+          "claimant": "WALKER, FATIMA",
+          "cause": "Struck By Object",
+          "description": "Employee struck by a dumpster.",
+          "location": "Syracuse, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 16.74,
+              "reserve": 0.0,
+              "incurred": 16.74
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 16.74,
+          "total_reserve": 0.0,
+          "total_incurred": 16.74,
+          "paid_loss": 0.0,
+          "paid_expense": 16.74,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 16.74
+        },
+        {
+          "claim_number": "WC24040166",
+          "coverage": "WC",
+          "date_of_loss": "2024-10-31",
+          "date_reported": "2024-11-13",
+          "date_closed": "2026-02-28",
+          "status": "Closed",
+          "claimant": "KHAN, LUIS",
+          "cause": "Strain/Lifting",
+          "description": "Employee strained forearm lifting a delivery cart.",
+          "location": "Syracuse, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 2288.15,
+              "reserve": 0.0,
+              "incurred": 2288.15
+            },
+            "expense": {
+              "paid": 1341.19,
+              "reserve": 0.0,
+              "incurred": 1341.19
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 3629.34,
+          "total_reserve": 0.0,
+          "total_incurred": 3629.34,
+          "paid_loss": 2288.15,
+          "paid_expense": 1341.19,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 3629.34
+        },
+        {
+          "claim_number": "WC24040105",
+          "coverage": "WC",
+          "date_of_loss": "2024-11-03",
+          "date_reported": "2024-11-10",
+          "date_closed": "2026-01-07",
+          "status": "Closed",
+          "claimant": "WARD, SOFIA",
+          "cause": "Struck By Object",
+          "description": "Employee struck by a pallet of boxes.",
+          "location": "Syracuse, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 265.46,
+              "reserve": 0.0,
+              "incurred": 265.46
+            },
+            "expense": {
+              "paid": 136.38,
+              "reserve": 0.0,
+              "incurred": 136.38
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 401.84,
+          "total_reserve": 0.0,
+          "total_incurred": 401.84,
+          "paid_loss": 265.46,
+          "paid_expense": 136.38,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 401.84
+        }
+      ],
+      "totals": {
+        "total_paid": 19637.36,
+        "total_reserve": 0.0,
+        "total_incurred": 19637.36,
+        "paid_loss": 15224.45,
+        "paid_expense": 4412.91,
+        "reserve_loss": 0.0,
+        "reserve_expense": 0.0,
+        "recovery": 0.0,
+        "net_incurred": 19637.36,
+        "claim_count": 5,
+        "open_count": 0,
+        "closed_count": 5,
+        "loss_ratio": 0.2922
+      }
+    },
+    {
+      "policy_number": "WC 5445820-02",
+      "line_of_business": "WC",
+      "effective_date": "2024-12-01",
+      "expiration_date": "2025-12-01",
+      "premium": 69341.0,
+      "claims": [
+        {
+          "claim_number": "WC25040250",
+          "coverage": "WC",
+          "date_of_loss": "2025-03-11",
+          "date_reported": "2025-03-12",
+          "date_closed": "2025-05-28",
+          "status": "Closed",
+          "claimant": "RODRIGUEZ, JASON",
+          "cause": "Burn",
+          "description": "Employee burned right shoulder on a fryer.",
+          "location": "Syracuse, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 1062.75,
+              "reserve": 0.0,
+              "incurred": 1062.75
+            },
+            "expense": {
+              "paid": 492.64,
+              "reserve": 0.0,
+              "incurred": 492.64
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 1555.39,
+          "total_reserve": 0.0,
+          "total_incurred": 1555.39,
+          "paid_loss": 1062.75,
+          "paid_expense": 492.64,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 1555.39
+        },
+        {
+          "claim_number": "WC25040222",
+          "coverage": "WC",
+          "date_of_loss": "2025-09-10",
+          "date_reported": "2025-09-16",
+          "date_closed": null,
+          "status": "Open",
+          "claimant": "FISCHER, LUIS",
+          "cause": "Strain/Lifting",
+          "description": "Employee strained lower back lifting a fence.",
+          "location": "Syracuse, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 133.12,
+              "reserve": 742.14,
+              "incurred": 875.26
+            },
+            "medical": {
+              "paid": 22.42,
+              "reserve": 354.09,
+              "incurred": 376.51
+            },
+            "expense": {
+              "paid": 115.26,
+              "reserve": 64.71,
+              "incurred": 179.97
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 270.8,
+          "total_reserve": 1160.94,
+          "total_incurred": 1431.74,
+          "paid_loss": 155.54,
+          "paid_expense": 115.26,
+          "reserve_loss": 1096.23,
+          "reserve_expense": 64.71,
+          "net_incurred": 1431.74
+        },
+        {
+          "claim_number": "WC25040200",
+          "coverage": "WC",
+          "date_of_loss": "2025-09-21",
+          "date_reported": "2025-09-28",
+          "date_closed": "2026-03-14",
+          "status": "Closed",
+          "claimant": "RODRIGUEZ, FATIMA",
+          "cause": "Slip/Fall",
+          "description": "Employee slipped on an icy walkway and fell, injuring left knee.",
+          "location": "Syracuse, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 1440.01,
+              "reserve": 0.0,
+              "incurred": 1440.01
+            },
+            "medical": {
+              "paid": 1127.24,
+              "reserve": 0.0,
+              "incurred": 1127.24
+            },
+            "expense": {
+              "paid": 485.11,
+              "reserve": 0.0,
+              "incurred": 485.11
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 3052.36,
+          "total_reserve": 0.0,
+          "total_incurred": 3052.36,
+          "paid_loss": 2567.25,
+          "paid_expense": 485.11,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 3052.36
+        },
+        {
+          "claim_number": "WC25040227",
+          "coverage": "WC",
+          "date_of_loss": "2025-11-07",
+          "date_reported": "2025-11-17",
+          "date_closed": "2026-05-14",
+          "status": "Closed",
+          "claimant": "ROSSI, MEI",
+          "cause": "Burn",
+          "description": "Employee burned left knee on a fryer.",
+          "location": "Syracuse, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 537.97,
+              "reserve": 0.0,
+              "incurred": 537.97
+            },
+            "expense": {
+              "paid": 42.29,
+              "reserve": 0.0,
+              "incurred": 42.29
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 580.26,
+          "total_reserve": 0.0,
+          "total_incurred": 580.26,
+          "paid_loss": 537.97,
+          "paid_expense": 42.29,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 580.26
+        }
+      ],
+      "totals": {
+        "total_paid": 5458.81,
+        "total_reserve": 1160.94,
+        "total_incurred": 6619.75,
+        "paid_loss": 4323.51,
+        "paid_expense": 1135.3,
+        "reserve_loss": 1096.23,
+        "reserve_expense": 64.71,
+        "recovery": 0.0,
+        "net_incurred": 6619.75,
+        "claim_count": 4,
+        "open_count": 1,
+        "closed_count": 3,
+        "loss_ratio": 0.0955
+      }
+    },
+    {
+      "policy_number": "WC 5445820-03",
+      "line_of_business": "WC",
+      "effective_date": "2025-12-01",
+      "expiration_date": "2026-12-01",
+      "premium": 67766.0,
+      "claims": [
+        {
+          "claim_number": "WC26040290",
+          "coverage": "WC",
+          "date_of_loss": "2026-03-06",
+          "date_reported": "2026-03-17",
+          "date_closed": "2026-05-26",
+          "status": "Closed",
+          "claimant": "WARD, GRACE",
+          "cause": "Struck By Object",
+          "description": "Employee struck by a parked vehicle.",
+          "location": "Syracuse, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 7250.98,
+              "reserve": 0.0,
+              "incurred": 7250.98
+            },
+            "expense": {
+              "paid": 2168.77,
+              "reserve": 0.0,
+              "incurred": 2168.77
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 9419.75,
+          "total_reserve": 0.0,
+          "total_incurred": 9419.75,
+          "paid_loss": 7250.98,
+          "paid_expense": 2168.77,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 9419.75
+        },
+        {
+          "claim_number": "WC26040337",
+          "coverage": "WC",
+          "date_of_loss": "2026-03-26",
+          "date_reported": "2026-04-06",
+          "date_closed": "2026-07-22",
+          "status": "Closed",
+          "claimant": "JOHNSON, HANNAH",
+          "cause": "Laceration",
+          "description": "Employee cut right shoulder on a band saw.",
+          "location": "Syracuse, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 4490.82,
+              "reserve": 0.0,
+              "incurred": 4490.82
+            },
+            "expense": {
+              "paid": 1883.46,
+              "reserve": 0.0,
+              "incurred": 1883.46
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 6374.28,
+          "total_reserve": 0.0,
+          "total_incurred": 6374.28,
+          "paid_loss": 4490.82,
+          "paid_expense": 1883.46,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 6374.28
+        },
+        {
+          "claim_number": "WC26040315",
+          "coverage": "WC",
+          "date_of_loss": "2026-04-24",
+          "date_reported": "2026-05-14",
+          "date_closed": "2026-05-27",
+          "status": "Closed",
+          "claimant": "MARTIN, CARLOS",
+          "cause": "Laceration",
+          "description": "Employee cut left knee on sheet metal.",
+          "location": "Syracuse, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 152.48,
+              "reserve": 0.0,
+              "incurred": 152.48
+            },
+            "expense": {
+              "paid": 29.86,
+              "reserve": 0.0,
+              "incurred": 29.86
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 182.34,
+          "total_reserve": 0.0,
+          "total_incurred": 182.34,
+          "paid_loss": 152.48,
+          "paid_expense": 29.86,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 182.34
+        },
+        {
+          "claim_number": "WC26040312",
+          "coverage": "WC",
+          "date_of_loss": "2026-06-28",
+          "date_reported": "2026-06-29",
+          "date_closed": null,
+          "status": "Open",
+          "claimant": "BROWN, JENNIFER",
+          "cause": "Strain/Lifting",
+          "description": "Employee strained forearm lifting a delivery cart.",
+          "location": "Syracuse, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 1825.74,
+              "reserve": 632.32,
+              "incurred": 2458.06
+            },
+            "expense": {
+              "paid": 430.6,
+              "reserve": 531.95,
+              "incurred": 962.55
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 2256.34,
+          "total_reserve": 1164.27,
+          "total_incurred": 3420.61,
+          "paid_loss": 1825.74,
+          "paid_expense": 430.6,
+          "reserve_loss": 632.32,
+          "reserve_expense": 531.95,
+          "net_incurred": 3420.61
+        },
+        {
+          "claim_number": "WC26040255",
+          "coverage": "WC",
+          "date_of_loss": "2026-07-23",
+          "date_reported": "2026-07-26",
+          "date_closed": null,
+          "status": "Open",
+          "claimant": "MURPHY, BRIAN",
+          "cause": "Laceration",
+          "description": "Employee cut left knee on a band saw.",
+          "location": "Syracuse, NY",
+          "financials": {
+            "indemnity": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "medical": {
+              "paid": 4539.94,
+              "reserve": 5214.19,
+              "incurred": 9754.13
+            },
+            "expense": {
+              "paid": 473.39,
+              "reserve": 641.99,
+              "incurred": 1115.38
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 5013.33,
+          "total_reserve": 5856.18,
+          "total_incurred": 10869.51,
+          "paid_loss": 4539.94,
+          "paid_expense": 473.39,
+          "reserve_loss": 5214.19,
+          "reserve_expense": 641.99,
+          "net_incurred": 10869.51
+        }
+      ],
+      "totals": {
+        "total_paid": 23246.04,
+        "total_reserve": 7020.45,
+        "total_incurred": 30266.49,
+        "paid_loss": 18259.96,
+        "paid_expense": 4986.08,
+        "reserve_loss": 5846.51,
+        "reserve_expense": 1173.94,
+        "recovery": 0.0,
+        "net_incurred": 30266.49,
+        "claim_count": 5,
+        "open_count": 2,
+        "closed_count": 3,
+        "loss_ratio": 0.4466
+      }
+    }
+  ],
+  "totals": {
+    "total_paid": 48342.21,
+    "total_reserve": 8181.39,
+    "total_incurred": 56523.6,
+    "paid_loss": 37807.92,
+    "paid_expense": 10534.29,
+    "reserve_loss": 6942.74,
+    "reserve_expense": 1238.65,
+    "recovery": 0.0,
+    "net_incurred": 56523.6,
+    "claim_count": 14,
+    "open_count": 3,
+    "closed_count": 11
+  },
+  "render_params": {
+    "date": "%m/%d/%Y",
+    "money": "plain",
+    "zero": "0.00"
+  },
+  "fields_present": [
+    "claim_number",
+    "date_of_loss",
+    "date_reported",
+    "claimant",
+    "cause",
+    "status",
+    "financials.*.paid",
+    "total_reserve",
+    "total_incurred",
+    "policy.*",
+    "totals"
+  ],
+  "quirks": [
+    "landscape",
+    "policy_subtotals",
+    "grand_total_last_page",
+    "per_component_paid_columns",
+    "column_set_changes_per_lob"
+  ],
+  "file": "documents/L01_002.pdf",
+  "format": "pdf",
+  "pages": 1,
+  "has_text_layer": true
+}

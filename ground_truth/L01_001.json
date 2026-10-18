@@ -1,0 +1,1205 @@
+{
+  "doc_id": "L01_001",
+  "layout": "L01_classic_grid",
+  "carrier": "Tallpine Mutual Insurance Company",
+  "issuer": "Tallpine Mutual Insurance Company",
+  "insured_name": "Eastgate Auto Body Corp.",
+  "insured_address": "3062 Main St, Albany, NY 14442",
+  "account_number": "974618",
+  "agency": "Bluestone Insurance Services",
+  "valuation_date": "2026-06-10",
+  "run_date": "2026-06-18",
+  "currency": "USD",
+  "whole_dollar_amounts": false,
+  "policies": [
+    {
+      "policy_number": "GL 3079249-01",
+      "line_of_business": "GL",
+      "effective_date": "2022-01-01",
+      "expiration_date": "2023-01-01",
+      "premium": 18184.0,
+      "claims": [
+        {
+          "claim_number": "GL22076391",
+          "coverage": "GL",
+          "date_of_loss": "2022-02-13",
+          "date_reported": "2022-02-23",
+          "date_closed": "2024-07-27",
+          "status": "Closed",
+          "claimant": "ROSSI, DAVID",
+          "cause": "Property Damage - Ops",
+          "description": "Insured's crew damaged a pallet of boxes at claimant's site.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "property_damage": {
+              "paid": 78586.87,
+              "reserve": 0.0,
+              "incurred": 78586.87
+            },
+            "expense": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 78586.87,
+          "total_reserve": 0.0,
+          "total_incurred": 78586.87,
+          "paid_loss": 78586.87,
+          "paid_expense": 0.0,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 78586.87
+        },
+        {
+          "claim_number": "GL22076451",
+          "coverage": "GL",
+          "date_of_loss": "2022-03-08",
+          "date_reported": "2022-04-09",
+          "date_closed": "2023-10-10",
+          "status": "Closed",
+          "claimant": "WALKER, JENNIFER",
+          "cause": "Premises - Trip/Fall",
+          "description": "Patron tripped over a shelving unit near entrance.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 2679.82,
+              "reserve": 0.0,
+              "incurred": 2679.82
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 431.22,
+              "reserve": 0.0,
+              "incurred": 431.22
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 3111.04,
+          "total_reserve": 0.0,
+          "total_incurred": 3111.04,
+          "paid_loss": 2679.82,
+          "paid_expense": 431.22,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 3111.04
+        },
+        {
+          "claim_number": "GL22076362",
+          "coverage": "GL",
+          "date_of_loss": "2022-08-23",
+          "date_reported": "2022-09-16",
+          "date_closed": "2026-03-18",
+          "status": "Closed",
+          "claimant": "ROSSI, MARIA",
+          "cause": "Products Liability",
+          "description": "Claimant alleges injury from a cleaning solution.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 10702.27,
+              "reserve": 0.0,
+              "incurred": 10702.27
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 1633.88,
+              "reserve": 0.0,
+              "incurred": 1633.88
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 12336.15,
+          "total_reserve": 0.0,
+          "total_incurred": 12336.15,
+          "paid_loss": 10702.27,
+          "paid_expense": 1633.88,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 12336.15
+        },
+        {
+          "claim_number": "GL22076411",
+          "coverage": "GL",
+          "date_of_loss": "2022-10-03",
+          "date_reported": "2022-10-04",
+          "date_closed": "2023-12-25",
+          "status": "Closed",
+          "claimant": "SILVA, HANNAH",
+          "cause": "Premises - Trip/Fall",
+          "description": "Patron tripped over a ladder near entrance.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 10384.77,
+              "reserve": 0.0,
+              "incurred": 10384.77
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 497.52,
+              "reserve": 0.0,
+              "incurred": 497.52
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 10882.29,
+          "total_reserve": 0.0,
+          "total_incurred": 10882.29,
+          "paid_loss": 10384.77,
+          "paid_expense": 497.52,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 10882.29
+        },
+        {
+          "claim_number": "GL22076436",
+          "coverage": "GL",
+          "date_of_loss": "2022-10-21",
+          "date_reported": "2022-10-27",
+          "date_closed": "2025-11-20",
+          "status": "Closed",
+          "claimant": "WARD, OMAR",
+          "cause": "Premises - Slip/Fall",
+          "description": "Customer slipped on spilled oil at insured location.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 1613.06,
+              "reserve": 0.0,
+              "incurred": 1613.06
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 1613.06,
+          "total_reserve": 0.0,
+          "total_incurred": 1613.06,
+          "paid_loss": 1613.06,
+          "paid_expense": 0.0,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 1613.06
+        },
+        {
+          "claim_number": "GL22076424",
+          "coverage": "GL",
+          "date_of_loss": "2022-11-01",
+          "date_reported": "2022-11-11",
+          "date_closed": "2024-06-06",
+          "status": "Closed",
+          "claimant": "DAVIS, DANIEL",
+          "cause": "Premises - Trip/Fall",
+          "description": "Patron tripped over a parked vehicle near entrance.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 15693.62,
+              "reserve": 0.0,
+              "incurred": 15693.62
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 2697.79,
+              "reserve": 0.0,
+              "incurred": 2697.79
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 18391.41,
+          "total_reserve": 0.0,
+          "total_incurred": 18391.41,
+          "paid_loss": 15693.62,
+          "paid_expense": 2697.79,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 18391.41
+        }
+      ],
+      "totals": {
+        "total_paid": 124920.82,
+        "total_reserve": 0.0,
+        "total_incurred": 124920.82,
+        "paid_loss": 119660.41,
+        "paid_expense": 5260.41,
+        "reserve_loss": 0.0,
+        "reserve_expense": 0.0,
+        "recovery": 0.0,
+        "net_incurred": 124920.82,
+        "claim_count": 6,
+        "open_count": 0,
+        "closed_count": 6,
+        "loss_ratio": 6.8698
+      }
+    },
+    {
+      "policy_number": "GL 3079249-02",
+      "line_of_business": "GL",
+      "effective_date": "2023-01-01",
+      "expiration_date": "2024-01-01",
+      "premium": 19103.0,
+      "claims": [
+        {
+          "claim_number": "GL23076511",
+          "coverage": "GL",
+          "date_of_loss": "2023-02-04",
+          "date_reported": "2023-02-19",
+          "date_closed": "2023-11-25",
+          "status": "Closed",
+          "claimant": "DAVIS, RACHEL",
+          "cause": "Products Liability",
+          "description": "Claimant alleges injury from packaged food item.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 6789.79,
+              "reserve": 0.0,
+              "incurred": 6789.79
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 6789.79,
+          "total_reserve": 0.0,
+          "total_incurred": 6789.79,
+          "paid_loss": 6789.79,
+          "paid_expense": 0.0,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 6789.79
+        },
+        {
+          "claim_number": "GL23076545",
+          "coverage": "GL",
+          "date_of_loss": "2023-05-11",
+          "date_reported": "2023-05-13",
+          "date_closed": "2025-10-11",
+          "status": "Closed",
+          "claimant": "JOHNSON, LUIS",
+          "cause": "Premises - Trip/Fall",
+          "description": "Patron tripped over a display rack near entrance.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 53757.05,
+              "reserve": 0.0,
+              "incurred": 53757.05
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 12823.81,
+              "reserve": 0.0,
+              "incurred": 12823.81
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 66580.86,
+          "total_reserve": 0.0,
+          "total_incurred": 66580.86,
+          "paid_loss": 53757.05,
+          "paid_expense": 12823.81,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 66580.86
+        },
+        {
+          "claim_number": "GL23076463",
+          "coverage": "GL",
+          "date_of_loss": "2023-05-29",
+          "date_reported": "2023-06-01",
+          "date_closed": "2024-06-14",
+          "status": "Closed",
+          "claimant": "SATO, FATIMA",
+          "cause": "Products Liability",
+          "description": "Claimant alleges injury from a heating unit.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 3650.48,
+              "reserve": 0.0,
+              "incurred": 3650.48
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 858.89,
+              "reserve": 0.0,
+              "incurred": 858.89
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 4509.37,
+          "total_reserve": 0.0,
+          "total_incurred": 4509.37,
+          "paid_loss": 3650.48,
+          "paid_expense": 858.89,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 4509.37
+        },
+        {
+          "claim_number": "GL23076493",
+          "coverage": "GL",
+          "date_of_loss": "2023-06-01",
+          "date_reported": "2023-06-04",
+          "date_closed": "2023-07-06",
+          "status": "Closed",
+          "claimant": "REYES, TANYA",
+          "cause": "Premises - Trip/Fall",
+          "description": "Patron tripped over a fence near entrance.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 16520.4,
+              "reserve": 0.0,
+              "incurred": 16520.4
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 1095.37,
+              "reserve": 0.0,
+              "incurred": 1095.37
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 17615.77,
+          "total_reserve": 0.0,
+          "total_incurred": 17615.77,
+          "paid_loss": 16520.4,
+          "paid_expense": 1095.37,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 17615.77
+        },
+        {
+          "claim_number": "GL23076596",
+          "coverage": "GL",
+          "date_of_loss": "2023-08-28",
+          "date_reported": "2023-08-30",
+          "date_closed": "2025-02-12",
+          "status": "Closed",
+          "claimant": "REYES, ELENA",
+          "cause": "Premises - Trip/Fall",
+          "description": "Patron tripped over a ladder near entrance.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 761.09,
+              "reserve": 0.0,
+              "incurred": 761.09
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 761.09,
+          "total_reserve": 0.0,
+          "total_incurred": 761.09,
+          "paid_loss": 0.0,
+          "paid_expense": 761.09,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 761.09
+        },
+        {
+          "claim_number": "GL23076619",
+          "coverage": "GL",
+          "date_of_loss": "2023-11-07",
+          "date_reported": "2023-11-13",
+          "date_closed": "2026-04-23",
+          "status": "Closed",
+          "claimant": "SATO, SAMUEL",
+          "cause": "Products Liability",
+          "description": "Claimant alleges injury from a heating unit.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 0.0,
+          "total_reserve": 0.0,
+          "total_incurred": 0.0,
+          "paid_loss": 0.0,
+          "paid_expense": 0.0,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 0.0
+        },
+        {
+          "claim_number": "GL23076575",
+          "coverage": "GL",
+          "date_of_loss": "2023-12-07",
+          "date_reported": "2023-12-07",
+          "date_closed": "2023-12-28",
+          "status": "Closed",
+          "claimant": "DAVIS, TYRONE",
+          "cause": "Property Damage - Ops",
+          "description": "Insured's crew damaged a display rack at claimant's site.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "property_damage": {
+              "paid": 8233.66,
+              "reserve": 0.0,
+              "incurred": 8233.66
+            },
+            "expense": {
+              "paid": 1477.3,
+              "reserve": 0.0,
+              "incurred": 1477.3
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 9710.96,
+          "total_reserve": 0.0,
+          "total_incurred": 9710.96,
+          "paid_loss": 8233.66,
+          "paid_expense": 1477.3,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 9710.96
+        }
+      ],
+      "totals": {
+        "total_paid": 105967.84,
+        "total_reserve": 0.0,
+        "total_incurred": 105967.84,
+        "paid_loss": 88951.38,
+        "paid_expense": 17016.46,
+        "reserve_loss": 0.0,
+        "reserve_expense": 0.0,
+        "recovery": 0.0,
+        "net_incurred": 105967.84,
+        "claim_count": 7,
+        "open_count": 0,
+        "closed_count": 7,
+        "loss_ratio": 5.5472
+      }
+    },
+    {
+      "policy_number": "GL 3079249-03",
+      "line_of_business": "GL",
+      "effective_date": "2024-01-01",
+      "expiration_date": "2025-01-01",
+      "premium": 20201.0,
+      "claims": [
+        {
+          "claim_number": "GL24076753",
+          "coverage": "GL",
+          "date_of_loss": "2024-02-28",
+          "date_reported": "2024-02-29",
+          "date_closed": "2025-01-23",
+          "status": "Closed",
+          "claimant": "OKAFOR, DAVID",
+          "cause": "Property Damage - Ops",
+          "description": "Insured's crew damaged a shelving unit at claimant's site.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "property_damage": {
+              "paid": 97381.88,
+              "reserve": 0.0,
+              "incurred": 97381.88
+            },
+            "expense": {
+              "paid": 19583.84,
+              "reserve": 0.0,
+              "incurred": 19583.84
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 116965.72,
+          "total_reserve": 0.0,
+          "total_incurred": 116965.72,
+          "paid_loss": 97381.88,
+          "paid_expense": 19583.84,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 116965.72
+        },
+        {
+          "claim_number": "GL24076620",
+          "coverage": "GL",
+          "date_of_loss": "2024-04-30",
+          "date_reported": "2024-05-03",
+          "date_closed": "2025-12-08",
+          "status": "Closed",
+          "claimant": "ROSSI, LUIS",
+          "cause": "Property Damage - Ops",
+          "description": "Insured's crew damaged a fence at claimant's site.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 1684.26,
+              "reserve": 0.0,
+              "incurred": 1684.26
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 1684.26,
+          "total_reserve": 0.0,
+          "total_incurred": 1684.26,
+          "paid_loss": 0.0,
+          "paid_expense": 1684.26,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 1684.26
+        },
+        {
+          "claim_number": "GL24076701",
+          "coverage": "GL",
+          "date_of_loss": "2024-06-16",
+          "date_reported": "2024-06-20",
+          "date_closed": "2024-06-28",
+          "status": "Closed",
+          "claimant": "MURPHY, ANDRE",
+          "cause": "Property Damage - Ops",
+          "description": "Insured's crew damaged a pallet of boxes at claimant's site.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "property_damage": {
+              "paid": 3761.29,
+              "reserve": 0.0,
+              "incurred": 3761.29
+            },
+            "expense": {
+              "paid": 506.75,
+              "reserve": 0.0,
+              "incurred": 506.75
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 4268.04,
+          "total_reserve": 0.0,
+          "total_incurred": 4268.04,
+          "paid_loss": 3761.29,
+          "paid_expense": 506.75,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 4268.04
+        },
+        {
+          "claim_number": "GL24076681",
+          "coverage": "GL",
+          "date_of_loss": "2024-06-19",
+          "date_reported": "2024-06-23",
+          "date_closed": "2024-09-03",
+          "status": "Closed",
+          "claimant": "CHEN, KEVIN",
+          "cause": "Products Liability",
+          "description": "Claimant alleges injury from a step stool.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 9962.67,
+              "reserve": 0.0,
+              "incurred": 9962.67
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 303.73,
+              "reserve": 0.0,
+              "incurred": 303.73
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 10266.4,
+          "total_reserve": 0.0,
+          "total_incurred": 10266.4,
+          "paid_loss": 9962.67,
+          "paid_expense": 303.73,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 10266.4
+        },
+        {
+          "claim_number": "GL24076769",
+          "coverage": "GL",
+          "date_of_loss": "2024-07-27",
+          "date_reported": "2024-08-05",
+          "date_closed": "2025-08-02",
+          "status": "Closed",
+          "claimant": "WILLIAMS, LUIS",
+          "cause": "Property Damage - Ops",
+          "description": "Insured's crew damaged a display rack at claimant's site.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "property_damage": {
+              "paid": 9952.6,
+              "reserve": 0.0,
+              "incurred": 9952.6
+            },
+            "expense": {
+              "paid": 2392.46,
+              "reserve": 0.0,
+              "incurred": 2392.46
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 12345.06,
+          "total_reserve": 0.0,
+          "total_incurred": 12345.06,
+          "paid_loss": 9952.6,
+          "paid_expense": 2392.46,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 12345.06
+        },
+        {
+          "claim_number": "GL24076652",
+          "coverage": "GL",
+          "date_of_loss": "2024-08-27",
+          "date_reported": "2024-09-12",
+          "date_closed": "2026-01-29",
+          "status": "Closed",
+          "claimant": "LOPEZ, TANYA",
+          "cause": "Premises - Trip/Fall",
+          "description": "Patron tripped over a shelving unit near entrance.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 10482.04,
+              "reserve": 0.0,
+              "incurred": 10482.04
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 10482.04,
+          "total_reserve": 0.0,
+          "total_incurred": 10482.04,
+          "paid_loss": 10482.04,
+          "paid_expense": 0.0,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 10482.04
+        },
+        {
+          "claim_number": "GL24076730",
+          "coverage": "GL",
+          "date_of_loss": "2024-10-04",
+          "date_reported": "2024-10-16",
+          "date_closed": "2025-05-28",
+          "status": "Closed",
+          "claimant": "BENNETT, HANNAH",
+          "cause": "Premises - Trip/Fall",
+          "description": "Patron tripped over a shelving unit near entrance.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 4956.39,
+              "reserve": 0.0,
+              "incurred": 4956.39
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 577.09,
+              "reserve": 0.0,
+              "incurred": 577.09
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 5533.48,
+          "total_reserve": 0.0,
+          "total_incurred": 5533.48,
+          "paid_loss": 4956.39,
+          "paid_expense": 577.09,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 5533.48
+        }
+      ],
+      "totals": {
+        "total_paid": 161545.0,
+        "total_reserve": 0.0,
+        "total_incurred": 161545.0,
+        "paid_loss": 136496.87,
+        "paid_expense": 25048.13,
+        "reserve_loss": 0.0,
+        "reserve_expense": 0.0,
+        "recovery": 0.0,
+        "net_incurred": 161545.0,
+        "claim_count": 7,
+        "open_count": 0,
+        "closed_count": 7,
+        "loss_ratio": 7.9969
+      }
+    },
+    {
+      "policy_number": "GL 3079249-04",
+      "line_of_business": "GL",
+      "effective_date": "2025-01-01",
+      "expiration_date": "2026-01-01",
+      "premium": 21428.0,
+      "claims": [
+        {
+          "claim_number": "GL25076872",
+          "coverage": "GL",
+          "date_of_loss": "2025-07-26",
+          "date_reported": "2025-08-27",
+          "date_closed": null,
+          "status": "Open",
+          "claimant": "LOPEZ, HANNAH",
+          "cause": "Products Liability",
+          "description": "Claimant alleges injury from a cleaning solution.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 1450.15,
+              "reserve": 1300.11,
+              "incurred": 2750.26
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 42.6,
+              "reserve": 54.49,
+              "incurred": 97.09
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 1492.75,
+          "total_reserve": 1354.6,
+          "total_incurred": 2847.35,
+          "paid_loss": 1450.15,
+          "paid_expense": 42.6,
+          "reserve_loss": 1300.11,
+          "reserve_expense": 54.49,
+          "net_incurred": 2847.35
+        },
+        {
+          "claim_number": "GL25076813",
+          "coverage": "GL",
+          "date_of_loss": "2025-11-15",
+          "date_reported": "2025-11-17",
+          "date_closed": null,
+          "status": "Open",
+          "claimant": "NGUYEN, TYRONE",
+          "cause": "Premises - Slip/Fall",
+          "description": "Customer slipped on uneven pavement at insured location.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 8840.7,
+              "reserve": 8994.69,
+              "incurred": 17835.39
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 1057.75,
+              "reserve": 1232.56,
+              "incurred": 2290.31
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 9898.45,
+          "total_reserve": 10227.25,
+          "total_incurred": 20125.7,
+          "paid_loss": 8840.7,
+          "paid_expense": 1057.75,
+          "reserve_loss": 8994.69,
+          "reserve_expense": 1232.56,
+          "net_incurred": 20125.7
+        },
+        {
+          "claim_number": "GL25076847",
+          "coverage": "GL",
+          "date_of_loss": "2025-12-10",
+          "date_reported": "2025-12-27",
+          "date_closed": null,
+          "status": "Open",
+          "claimant": "MURPHY, ROBERT",
+          "cause": "Premises - Slip/Fall",
+          "description": "Customer slipped on uneven pavement at insured location.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 220.13,
+              "reserve": 2962.94,
+              "incurred": 3183.07
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 12.7,
+              "reserve": 269.05,
+              "incurred": 281.75
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 232.83,
+          "total_reserve": 3231.99,
+          "total_incurred": 3464.82,
+          "paid_loss": 220.13,
+          "paid_expense": 12.7,
+          "reserve_loss": 2962.94,
+          "reserve_expense": 269.05,
+          "net_incurred": 3464.82
+        },
+        {
+          "claim_number": "GL25076785",
+          "coverage": "GL",
+          "date_of_loss": "2025-12-16",
+          "date_reported": "2025-12-16",
+          "date_closed": "2026-03-23",
+          "status": "Closed",
+          "claimant": "HUGHES, NICOLE",
+          "cause": "Premises - Trip/Fall",
+          "description": "Patron tripped over a parked vehicle near entrance.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 34059.5,
+              "reserve": 0.0,
+              "incurred": 34059.5
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 1724.93,
+              "reserve": 0.0,
+              "incurred": 1724.93
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 35784.43,
+          "total_reserve": 0.0,
+          "total_incurred": 35784.43,
+          "paid_loss": 34059.5,
+          "paid_expense": 1724.93,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 35784.43
+        }
+      ],
+      "totals": {
+        "total_paid": 47408.46,
+        "total_reserve": 14813.84,
+        "total_incurred": 62222.3,
+        "paid_loss": 44570.48,
+        "paid_expense": 2837.98,
+        "reserve_loss": 13257.74,
+        "reserve_expense": 1556.1,
+        "recovery": 0.0,
+        "net_incurred": 62222.3,
+        "claim_count": 4,
+        "open_count": 3,
+        "closed_count": 1,
+        "loss_ratio": 2.9038
+      }
+    },
+    {
+      "policy_number": "GL 3079249-05",
+      "line_of_business": "GL",
+      "effective_date": "2026-01-01",
+      "expiration_date": "2027-01-01",
+      "premium": 20346.0,
+      "claims": [
+        {
+          "claim_number": "GL26076880",
+          "coverage": "GL",
+          "date_of_loss": "2026-01-18",
+          "date_reported": "2026-01-20",
+          "date_closed": null,
+          "status": "Open",
+          "claimant": "SILVA, BRIAN",
+          "cause": "Premises - Trip/Fall",
+          "description": "Patron tripped over a delivery cart near entrance.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 3630.27,
+              "reserve": 1805.06,
+              "incurred": 5435.33
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 123.87,
+              "reserve": 128.98,
+              "incurred": 252.85
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 3754.14,
+          "total_reserve": 1934.04,
+          "total_incurred": 5688.18,
+          "paid_loss": 3630.27,
+          "paid_expense": 123.87,
+          "reserve_loss": 1805.06,
+          "reserve_expense": 128.98,
+          "net_incurred": 5688.18
+        },
+        {
+          "claim_number": "GL26076929",
+          "coverage": "GL",
+          "date_of_loss": "2026-02-26",
+          "date_reported": "2026-03-04",
+          "date_closed": null,
+          "status": "Open",
+          "claimant": "KIM, SOFIA",
+          "cause": "Premises - Slip/Fall",
+          "description": "Customer slipped on a wet floor at insured location.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 7019.37,
+              "reserve": 59424.91,
+              "incurred": 66444.28
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 7019.37,
+          "total_reserve": 59424.91,
+          "total_incurred": 66444.28,
+          "paid_loss": 7019.37,
+          "paid_expense": 0.0,
+          "reserve_loss": 59424.91,
+          "reserve_expense": 0.0,
+          "net_incurred": 66444.28
+        },
+        {
+          "claim_number": "GL26076906",
+          "coverage": "GL",
+          "date_of_loss": "2026-05-06",
+          "date_reported": "2026-05-15",
+          "date_closed": "2026-05-18",
+          "status": "Closed",
+          "claimant": "MORALES, KEVIN",
+          "cause": "Premises - Trip/Fall",
+          "description": "Patron tripped over a shelving unit near entrance.",
+          "location": "Yonkers, NY",
+          "financials": {
+            "bodily_injury": {
+              "paid": 11894.73,
+              "reserve": 0.0,
+              "incurred": 11894.73
+            },
+            "property_damage": {
+              "paid": 0.0,
+              "reserve": 0.0,
+              "incurred": 0.0
+            },
+            "expense": {
+              "paid": 1563.74,
+              "reserve": 0.0,
+              "incurred": 1563.74
+            }
+          },
+          "recovery": 0.0,
+          "total_paid": 13458.47,
+          "total_reserve": 0.0,
+          "total_incurred": 13458.47,
+          "paid_loss": 11894.73,
+          "paid_expense": 1563.74,
+          "reserve_loss": 0.0,
+          "reserve_expense": 0.0,
+          "net_incurred": 13458.47
+        }
+      ],
+      "totals": {
+        "total_paid": 24231.98,
+        "total_reserve": 61358.95,
+        "total_incurred": 85590.93,
+        "paid_loss": 22544.37,
+        "paid_expense": 1687.61,
+        "reserve_loss": 61229.97,
+        "reserve_expense": 128.98,
+        "recovery": 0.0,
+        "net_incurred": 85590.93,
+        "claim_count": 3,
+        "open_count": 2,
+        "closed_count": 1,
+        "loss_ratio": 4.2068
+      }
+    }
+  ],
+  "totals": {
+    "total_paid": 464074.1,
+    "total_reserve": 76172.79,
+    "total_incurred": 540246.89,
+    "paid_loss": 412223.51,
+    "paid_expense": 51850.59,
+    "reserve_loss": 74487.71,
+    "reserve_expense": 1685.08,
+    "recovery": 0.0,
+    "net_incurred": 540246.89,
+    "claim_count": 27,
+    "open_count": 5,
+    "closed_count": 22
+  },
+  "render_params": {
+    "date": "%m/%d/%Y",
+    "money": "plain",
+    "zero": "0.00"
+  },
+  "fields_present": [
+    "claim_number",
+    "date_of_loss",
+    "date_reported",
+    "claimant",
+    "cause",
+    "status",
+    "financials.*.paid",
+    "total_reserve",
+    "total_incurred",
+    "policy.*",
+    "totals"
+  ],
+  "quirks": [
+    "landscape",
+    "policy_subtotals",
+    "grand_total_last_page",
+    "per_component_paid_columns",
+    "column_set_changes_per_lob"
+  ],
+  "file": "documents/L01_001.pdf",
+  "format": "pdf",
+  "pages": 2,
+  "has_text_layer": true
+}
