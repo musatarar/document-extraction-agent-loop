@@ -1,7 +1,10 @@
 import os
+from dotenv import load_dotenv
 from enum import Enum
 
 import requests
+
+load_dotenv() 
 
 OCR_SPACE_URL = "https://api.ocr.space/parse/image"
 
