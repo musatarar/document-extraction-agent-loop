@@ -1,7 +1,7 @@
 
 
 import json
-from agent import get_document_claims, get_document_totals, inspect_pages, interact
+from agent import get_document_claims, get_document_totals, inspect_pages, interact, validate_totals
 
 
 def evaluate_and_tool_call_loop(file_path):
@@ -42,9 +42,8 @@ def evaluate_and_tool_call_loop(file_path):
             result = inspect_pages(**fc_step.arguments)
         elif fc_step.name == "get_document_claims":
             result = get_document_totals(**fc_step.arguments)
-        elif fc_step.name == "validate_totals_declaration":
-            ## Todo
-            pass
+        elif fc_step.name == "validate_totals":
+            result = validate_totals(file_path, **fc_step.arguments)
         elif fc_step.name == "return_validated_results_declaration":
             return ""
         
