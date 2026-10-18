@@ -1,7 +1,8 @@
 
 
 import json
-from agent import get_document_claims, get_document_totals, inspect_pages, interact, validate_totals
+from agent import interact
+from functions import FUNCTION_DECLARATIONS, FUNCTIONS
 
 
 def evaluate_and_tool_call_loop(file_path):
@@ -29,24 +30,17 @@ def evaluate_and_tool_call_loop(file_path):
         }
     ]
 
-    interaction = interact(prompt)
+    interaction = interact(prompt, tools=FUNCTION_DECLARATIONS)
 
     while True:
         for step in interaction.steps:
             history.append(step.model_dump())
 
         fc_step = next(s for s in interaction.steps if s.type == "function_call")
-        if fc_step.name == "extract_claims_declaration":
-            result = get_document_claims(**fc_step.arguments)
-        elif fc_step.name == "focus_pages_declaration":
-            result = inspect_pages(**fc_step.arguments)
-        elif fc_step.name == "get_document_claims":
-            result = get_document_totals(**fc_step.arguments)
-        elif fc_step.name == "validate_totals":
-            result = validate_totals(file_path, **fc_step.arguments)
-        elif fc_step.name == "return_validated_results_declaration":
-            return ""
-        
+        result = FUNCTIONS[fc_step.name](file_path, **fc_step.arguments)
+        if fc_step.name == "return_validated_results":
+            return result
+
         history.append({
             "type": "function_result",
             "name": fc_step.name,
@@ -54,5 +48,5 @@ def evaluate_and_tool_call_loop(file_path):
             "result": [{"type": "text", "text": json.dumps(result)}],
         })
 
-        interaction = interact(history)
+        interaction = interact(history, tools=FUNCTION_DECLARATIONS)
 

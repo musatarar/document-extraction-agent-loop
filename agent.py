@@ -1,5 +1,4 @@
 from google import genai
-from models import FUNCTION_DECLARATIONS
 from dotenv import load_dotenv
 import os
 from pydantic import BaseModel, Field
@@ -16,12 +15,12 @@ def interact(
     input: str, 
     response_format: BaseModel = None,
     thinking_level: str = "low", 
-    tools: list[dict] = FUNCTION_DECLARATIONS
+    tools: list[dict] | None = None
 ) -> str:
     interaction = client.interactions.create(
         model="gemini-3.8-flash",
         input=input,
-        tools=tools,
+        **({"tools": tools} if tools else {}),
         response_format=response_format,
         generation_config={
             "thinking_level": thinking_level,
@@ -81,65 +80,13 @@ class DocumentClaims(BaseModel):
     cause: str = Field(description="The cause of the loss")
     description: str = Field(description="A description of the claim")
 
-def get_document_claims(file_path: str, prompt: str = "Return the claims in the document. Claim number, date of loss, status, and dollar amount must be included. Leave other fields null if missing or if you are unsure.") -> DocumentClaims:
+def get_document_claims(file_path: str, pages: list[int] | None = None, prompt: str = "Return the claims in the document. Claim number, date of loss, status, and dollar amount must be included. Leave other fields null if missing or if you are unsure.") -> DocumentClaims:
     interaction = interact([
         {
             "type": "document",
-            "data": pdf_to_base64(file_path),
+            "data": pdf_to_base64(file_path, pages),
             "mime_type": "application/pdf"
         },
         {"type": "text", "text": prompt}
     ], response_format=DocumentClaims.model_json_schema())
     return DocumentClaims.model_validate_json(interaction.output_text)
-
-
-    
-
-def validate_totals(file_path: str, claims: list[dict], tolerance: float = 0.01) -> dict:
-    """Compare extracted claims against the totals stated in the document.
-
-    Checks claim count and paid/reserve/incurred sums. Totals the document does
-    not state (None) are reported as unverified rather than failing validation.
-    """
-    doc_totals = get_document_totals(file_path)
-
-    extracted = {
-        "total_claims": len(claims),
-        "total_paid": round(sum(c.get("total_paid") or 0 for c in claims), 2),
-        "total_reserve": round(sum(c.get("total_reserve") or 0 for c in claims), 2),
-        "total_incurred": round(sum(c.get("total_incurred") or 0 for c in claims), 2),
-    }
-    expected = {
-        "total_claims": doc_totals.total_claims,
-        "total_paid": doc_totals.total_paid,
-        # Loss runs often label reserves as "outstanding"
-        "total_reserve": doc_totals.total_reserve if doc_totals.total_reserve is not None else doc_totals.total_outstanding,
-        "total_incurred": doc_totals.total_incurred,
-    }
-
-    checks = {}
-    for field, actual in extracted.items():
-        target = expected[field]
-        if target is None:
-            checks[field] = {"status": "unverified", "extracted": actual, "document": None}
-            continue
-        diff = round(actual - target, 2)
-        ok = diff == 0 if field == "total_claims" else abs(diff) <= tolerance
-        checks[field] = {"status": "match" if ok else "mismatch", "extracted": actual, "document": target, "difference": diff}
-
-    # Claim numbers appearing more than once usually mean a page was extracted twice
-    seen, duplicates = set(), set()
-    for c in claims:
-        num = c.get("claim_number")
-        if num in seen:
-            duplicates.add(num)
-        seen.add(num)
-
-    mismatches = [f for f, r in checks.items() if r["status"] == "mismatch"]
-    return {
-        "passed": not mismatches and not duplicates,
-        "mismatches": mismatches,
-        "duplicate_claim_numbers": sorted(duplicates),
-        "open_claim_count": sum(1 for c in claims if (c.get("status") or "").strip().lower() in ("open", "reopened")),
-        "checks": checks,
-    }
