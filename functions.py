@@ -29,13 +29,13 @@ extract_claims_declaration = {
     },
 }
 
-def extract_claims(file_path: str, page_start: int | None = None, page_end: int | None = None) -> dict:
+def extract_claims(file_path: str, page_start: int | None = None, page_end: int | None = None) -> list[dict]:
     pages = None
     if page_start is not None or page_end is not None:
         start = page_start or 1
         end = page_end or start
         pages = list(range(start - 1, end))
-    return get_document_claims(file_path, pages=pages).model_dump()
+    return get_document_claims(file_path, pages=pages)
 
 
 focus_pages_declaration = {
